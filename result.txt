@@ -1,0 +1,25 @@
+Test case 1:  Accepted
+Sample Input:		29 13
+Excepted Output:	42
+Received Output:	42
+------------------------------------- 
+Test case 2:  Accepted
+Sample Input:		43 17
+Excepted Output:	60
+Received Output:	60
+------------------------------------- 
+Test case 3:  Accepted
+Sample Input:		43 3
+Excepted Output:	46
+Received Output:	46
+------------------------------------- 
+Test case 4:  Accepted
+Sample Input:		44 3
+Excepted Output:	47
+Received Output:	47
+------------------------------------- 
+Test case 5:  Accepted
+Sample Input:		4 47
+Excepted Output:	51
+Received Output:	51
+------------------------------------- 
