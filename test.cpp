@@ -6,7 +6,9 @@ using namespace std;
 
 int main() {
     int a, b;cin >> a >> b;
-    cout << a + b << endl;
+    int c = a + b;
+    if (a % 2)c++;
+    cout << c << endl;
 
     return 0;
 }

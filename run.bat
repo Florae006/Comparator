@@ -2,7 +2,7 @@
 
 set /p Times=Enter how many times you want to compare: 
 
-cd Comparator
+@REM cd Comparator
 
 cd Judger
 
