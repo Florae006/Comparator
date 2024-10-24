@@ -1,15 +1,27 @@
-## 一个简单的对拍器
+# 对拍器 2.0
 
-### 用法
+本次对这个对拍器进行了一次重构，添加了新的使用方法。
 
-克隆本仓库，在`Comparator`目录下，在`stds.cpp`中写出你的标程，然后在`data.cpp`设计数据生成器，最后在`test.cpp`中写出你的待测程序。
+## 使用方法
 
-执行：
+0. 环境准备
 
-```shell
-run run.bat
-```
+本项目运行在`Linux`下，各自文件操作命令适用于`Linux`，如果在`Windows`下运行，需要自行修改文件操作命令。
 
-即可终端窗口或`result.txt`中查看结果。
+1. 生成随机数据
 
-![c1f9d1aa46c9e32fc19d0cda933bca7c](https://img.dodolalorc.cn/i/2024/07/28/66a5aac933049.png)
+在`./hackdata`中用`main.py`编写需要的随机数样例，使用`python3 main.py`生成数据。生成的数据按照`1.in`对应`1.out`的形式存储在`data`中。
+
+或者直接在OJ上下载的替代`data`中的数据，需要保证`xxx.in`对应`xxx.out`的数据格式。
+
+2. 编写测试程序
+
+将用于测试的程序粘贴在`./main.cpp`中。
+
+3. 对拍
+
+运行`make cmp`编译，然后运行`./comparator`开始对拍。
+
+全部的输出结果会保存在`./judge/result.cpp`中。
+
+如果程序运行正确，获得`Accepted`，不会反馈任何结果，如果出现`Rejected`的样例，终端会输出未通过的样例名称。
